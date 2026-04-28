@@ -1,0 +1,19 @@
+# Secrets — never commit these
+credentials/oauth_credentials.json
+credentials/gmail_token.json
+credentials/service_account.json
+.env
+
+# ChromaDB local data
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/
